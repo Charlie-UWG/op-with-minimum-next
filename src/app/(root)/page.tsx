@@ -21,7 +21,7 @@ export default function Home() {
             alt="Hero Sample"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-            className="object-cover"
+            className="z-0 object-cover"
             priority
           />
         </div>

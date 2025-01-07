@@ -20,7 +20,7 @@ export const HeaderMenu: FC = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed left-0 top-16 w-full bg-white shadow-lg md:hidden">
+        <div className="absolute right-0 top-full z-[100] w-full max-w-xs rounded-lg bg-white/90 p-4 shadow-lg backdrop-blur md:hidden">
           <Navigation />
         </div>
       )}

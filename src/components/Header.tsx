@@ -5,7 +5,7 @@ import { HeaderMenu } from './HeaderMenu'
 
 export const Header: FC = () => {
   return (
-    <header className="m-4 flex justify-between">
+    <header className="relative z-50 m-4 flex justify-between">
       <h1 className="text-xl font-bold leading-none sm:text-2xl lg:text-4xl">
         Degital Scanning Center
       </h1>
