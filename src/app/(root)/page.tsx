@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import hero from '~/assets/hero-sample-01.jpg'
+import Footer from '~/components/Footer'
 import Header from '~/components/Header'
 
 export default function Home() {
@@ -25,9 +26,11 @@ export default function Home() {
             priority
           />
         </div>
-        <p className="mx-4 mt-6 font-medium lg:mx-24">
-          最新鋭のデジタルスキャニング技術を駆使し、紙媒体を効率的にデジタル化。過去の資料を未来へと引き継ぎ、アクセスしやすいデジタル資産に変えます。障害者就労支援を通じて社会貢献も実現しています。
-        </p>
+        <div className="mx-4 mt-6 flex justify-center lg:mx-24">
+          <p className="font-medium">
+            最新鋭のデジタルスキャニング技術を駆使し、紙媒体を効率的にデジタル化。過去の資料を未来へと引き継ぎ、アクセスしやすいデジタル資産に変えます。障害者就労支援を通じて社会貢献も実現しています。
+          </p>
+        </div>
 
         <div className="mx-8 my-4">
           <h2 className="mt-6 text-center text-xl font-semibold sm:text-4xl">対象の書類</h2>
@@ -44,6 +47,7 @@ export default function Home() {
             <li>絵画・アート作品</li>
           </ul>
         </div>
+        <Footer />
       </main>
     </div>
   )
